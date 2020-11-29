@@ -46,7 +46,6 @@ $(document).ready(function(){
     else{
       foo.parent().children().first().addClass("active");
     }
-    foo.removeClass("active");
   })
   
 
@@ -60,6 +59,5 @@ $(document).ready(function(){
     else{
       foo.parent().children().last().addClass("active");
     }
-    foo.removeClass("active");
   })
 });
