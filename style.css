@@ -49,3 +49,6 @@ img{
 .mySlides {
     display: none;
   }
+  .active{
+    display: block;
+  }
